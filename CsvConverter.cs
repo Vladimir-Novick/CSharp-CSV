@@ -17,7 +17,7 @@ using System.Text;
 
 namespace SGcombo.CsvUtils
 {
-    public  class CsvConvertor
+    public  class CsvConverter
     {
         private class MetodataItem
         {
@@ -49,7 +49,7 @@ namespace SGcombo.CsvUtils
         ///         ]
         /// 
         ///    run as :
-        ///            CsvConvertor convert = new CsvConvertor();
+        ///            CsvConverter convert = new CsvConverter();
         ///            List<FlightDetail> flight = convert.CsvConvert<FlightDetail>(@"FlList.txt", @"FlList.json");
         /// 
         /// </summary>
