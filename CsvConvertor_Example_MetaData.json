@@ -1,0 +1,14 @@
+[
+    {
+   "Column":0,
+   "Field":"FL_ID"
+       },
+   {
+   "Column":1,
+   "Field":"FL_Dep_Hour"
+       },
+   {
+   "Column":2,
+   "Field":"FL_Arrv_Hour"
+       }
+]
