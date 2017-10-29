@@ -61,9 +61,9 @@ namespace SGcombo.CsvUtils
         }
 
 
-        public String seporator = @"[|]";
+        public String seporator = @"""?[|]""?";
 
-        public Boolean SetSchema(string filepath, String _seporator = @"[|]")
+        public Boolean SetSchema(string filepath, String _seporator = @"""?[|]""?";)
         {
             _fileName = filepath;
             seporator = _seporator;
